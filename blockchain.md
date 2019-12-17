@@ -1,4 +1,4 @@
-## Tema: Blockchain
+## Tema: Componentes básicos de Blockchain
 
 El tema que se presente a continuación gira en torno a dos piezas fundamentales de un Blockchain:
 
@@ -6,21 +6,9 @@ El tema que se presente a continuación gira en torno a dos piezas fundamentales
 
 * Una Cadena de Bloques
 
-  
-
 ## Concepto
 
 El Blockchain es una cadena de bloques con mucha similitud a una estructura de datos denominada Linked List o Lista Enlazada. Cada bloque esta conectado a otro bloque en la cadena y contiene información sobre una transacción en particular, una marca de tiempo, y un hash criptográfico del bloque previo.
-
-
-
-Nuestro blockchain utilizará como mínimo, lo siguiente:
-
-* el hash [SHA-256](https://en.wikipedia.org/wiki/SHA-2), ver: [Hashlib](https://docs.python.org/3.5/library/hashlib.html?highlight=hashlib%20sha256)
-* [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time), ver: [Datetime](https://docs.python.org/3.5/library/datetime.html)
-* String como tipaje de datos para la informacion, ver: [Str](https://docs.python.org/3.5/library/stdtypes.html#text-sequence-type-str)
-
-
 
 Podemos crear un Blockchain con lo siguiente:
 
@@ -30,13 +18,16 @@ Podemos crear un Blockchain con lo siguiente:
 
 * Una clase denominada Cadena
 
-  
 
 ### La idea de un bloque
 
 ![image-20191213232613423](/home/adriaanbd/.config/Typora/typora-user-images/image-20191213232613423.png)
 
+Nuestro blockchain utilizará como mínimo, lo siguiente:
 
+* el hash [SHA-256](https://en.wikipedia.org/wiki/SHA-2), ver: [Hashlib](https://docs.python.org/3.5/library/hashlib.html?highlight=hashlib%20sha256)
+* [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time), ver: [Datetime](https://docs.python.org/3.5/library/datetime.html)
+* String como tipaje de datos para la informacion, ver: [Str](https://docs.python.org/3.5/library/stdtypes.html#text-sequence-type-str)
 
 #### class Bloque
 
@@ -54,7 +45,7 @@ class Bloque:
     def calc_hash(self):
       sha = hashlib.sha256()
 
-      hash_str = "We are going to encode this string of data!".encode('utf-8')
+      hash_str = "Bienvenido al reto del mes, Blockchain!".encode('utf-8')
 
       sha.update(hash_str)
 
@@ -85,9 +76,11 @@ class Cadena:
 
 ### Casos Excepcionales
 
-Tomar en consideración el manejo de lo siguiente:
+Los bloques pueden contener cualquier tipo de datos, no solamente enteros ("int") o cadenas de texto ("str")
 
-* Crear un bloque con otro tipo de data que no sea un `str`, i.e. `None`, `int`, etc
-* Crear un bloque con un empty `str`, i.e. `""`
+## El reto
 
-El código deberá poder identificar estos casos especiales y manejarlos adecuadamente.
+Crear código en Python que a partir de las clases Blockchain y Cadena permita:
+
+* Crear y modificar cadenas
+* Crear bloques con tipos de datos `str`, `int` u otros, pero que retorne un error cuando se quiera crear un bloque con tipo "None" o un empty `str`, i.e. `""`
