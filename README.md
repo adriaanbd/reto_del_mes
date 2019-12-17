@@ -17,7 +17,7 @@ Las personas interesadas en participar simplemente tienen que seguir estos pasos
 
 * Ingresar al branch del reto del mes: `$ git checkout blockchain`
 
-* Leer el `README.md` del problema
+* Leer el archivo markdown del problem, i.e. `titulo-del-problema.md`
 
 * Crear un branch con su nombre: `$ git checkout -b el_legendario`
 
