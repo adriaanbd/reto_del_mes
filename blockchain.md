@@ -45,7 +45,7 @@ class Bloque:
     def calc_hash(self):
       sha = hashlib.sha256()
 
-      hash_str = "We are going to encode this string of data!".encode('utf-8')
+      hash_str = "Bienvenido al reto del mes, Blockchain!".encode('utf-8')
 
       sha.update(hash_str)
 
@@ -83,5 +83,4 @@ Los bloques pueden contener cualquier tipo de datos, no solamente enteros ("int"
 Crear código en Python que a partir de las clases Blockchain y Cadena permita:
 
 * Crear y modificar cadenas
-* Crear bloques con tipos de datos `str`, `int` u otros, pero que retorne un error  cuando se quiera crear un bloque con tipo "None"
-* Crear bloques con un empty `str`, i.e. `""`
+* Crear bloques con tipos de datos `str`, `int` u otros, pero que retorne un error cuando se quiera crear un bloque con tipo "None" o un empty `str`, i.e. `""`
