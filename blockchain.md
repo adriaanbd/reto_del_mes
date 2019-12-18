@@ -21,7 +21,7 @@ Podemos crear un Blockchain con lo siguiente:
 
 ### La idea de un bloque
 
-![image-20191213232613423](/home/adriaanbd/.config/Typora/typora-user-images/image-20191213232613423.png)
+![image](https://user-images.githubusercontent.com/22228397/71118267-b51b3100-21a5-11ea-98fc-c94acc2eefbc.png)
 
 Nuestro blockchain utilizará como mínimo, lo siguiente:
 
