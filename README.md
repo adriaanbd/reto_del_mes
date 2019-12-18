@@ -25,7 +25,7 @@ Las personas interesadas en participar simplemente tienen que seguir estos pasos
 
 * Hacer un Pull Request hacia el branch del reto, i.e. `blockchain`
 
-* Asignar a [@adriaanbd](www.github.com/adriaanbd) como Reviewer
+* Asignar a [@adriaanbd](https://github.com/adriaanbd) como Reviewer
 
 * Esperar el Code Review
 
