@@ -2,8 +2,8 @@
 
 El Reto del Mes es una iniciativa dirigida a:
 
-* propiciar el interés en Estructuras de Datos y Algoritmos con un efoque práctico
-* incentivar la colaboración y participación entre miembros de la comunidad Python Panamá sobre temas puntuales
+* Propiciar el interés de la comunidad en diversos tópicos de programación y ciencias de la computación con un efoque práctico usando Python.
+* Incentivar la colaboración y participación entre miembros de la comunidad Python Panamá.
 
 
 
@@ -17,19 +17,19 @@ Las personas interesadas en participar simplemente tienen que seguir estos pasos
 
 * Ingresar al branch del reto del mes: `$ git checkout blockchain`
 
-* Leer el archivo markdown del problem, i.e. `titulo-del-problema.md`
+* Leer el archivo markdown del problema, i.e. `titulo-del-problema.md`
 
 * Crear un branch con su nombre: `$ git checkout -b el_legendario`
 
-* Subir su codigo `$ git push -u origin el_legandario`
+* Subir su codigo `$ git push -u origin el_legendario`
 
 * Hacer un Pull Request hacia el branch del reto, i.e. `blockchain`
 
-* Asignar a [@adriaanbd](https://github.com/adriaanbd) como Reviewer
+* Asignar a [@adriaanbd](https://github.com/adriaanbd) como Reviewer.
 
-* Esperar el Code Review
+* Esperar el Code Review.
 
-* Hacer cambios si es necesario
+* Hacer cambios si es necesario.
 
   
 
@@ -42,16 +42,16 @@ La mejor o los mejores PRs tendrán 5 minutos para presentar su código. Asimism
 Se utilizarán los siguientes criterios para considerar un PR como satisfactorio:
 
 * Implementación de todos los métodos anunciados en el problema.
-* El código está limpio
-* Las ideas se presentan con claridad
+* El código está limpio.
+* Las ideas se presentan con claridad.
 
 
 
 Un PR excepcional tendrá lo siguiente:
 
-* Manejo de casos excepcionales (edge cases)
-* Análisis de complejidad de tiempo y espacio en (Big O Notation)
-* Contiene pruebas que demuestran que el código funciona
+* Manejo de casos excepcionales (edge cases).
+* Análisis de complejidad de tiempo y espacio en (Big O Notation).
+* Contiene pruebas que demuestran que el código funciona.
 
 
 
